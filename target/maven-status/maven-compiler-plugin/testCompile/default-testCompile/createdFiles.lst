@@ -1,0 +1,4 @@
+com/danpadgett/repository/UserRepositoryTests.class
+com/danpadgett/repository/BlogEntryRepositoryTests.class
+com/danpadgett/repository/LabEntryRepositoryTests.class
+com/danpadgett/repository/TutorialEntryRepositoryTests.class

@@ -12,7 +12,7 @@
     <meta name="description" content="Studlum Home Page">
     <meta name="author" content="Studlum">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>Home - Studlum</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href='<c:url value="/resources/css/bootstrap-css/bootstrap.min.css"/>' rel="stylesheet">
@@ -47,7 +47,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="#page-top">Studlum</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -57,13 +57,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
                         <a href="#about">About</a>
                     </li>
                     <li class="page-scroll">
+                        <a href="#services">Services</a>
+                    </li>
+                    <li class="page-scroll">
                         <a href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Login</a>
                     </li>
                 </ul>
             </div>
@@ -79,108 +82,75 @@
                 <div class="col-lg-12">
                     <img class="img-responsive" src='<c:url value="/resources/images/profile.png"/>' alt="">
                     <div class="intro-text">
-                        <span class="name">Start Bootstrap</span>
+                        <span class="name">Welcome to Studlum</span>
+                        <span class="skills">The New Way to Connect Students with Alumni</span><br/>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        <span class="skills"><a href="#" class="btn btn-lg btn-primary">Get Started</a></span><br/><br/>           
+						<span class="skills">Already have an account? <a href="#" class="btn btn-primary btn-primary">Login</a></span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src='<c:url value="/resources/images/portfolio/cabin.png"/>' class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src='<c:url value="/resources/images/portfolio/cake.png"/>' class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src='<c:url value="/resources/images/portfolio/circus.png"/>' class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src='<c:url value="/resources/images/portfolio/game.png"/>' class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src='<c:url value="/resources/images/portfolio/safe.png"/>' class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src='<c:url value="/resources/images/portfolio/submarine.png"/>' class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- About Section -->
-    <section class="success" id="about">
+    <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>About</h2>
-                    <hr class="star-light">
+                    <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    <p>Studlum (Student + Alumni) was created as a solution to better connect students with their alumni. Studlum is the newest and simplest way that students connect and network with alumni. Students will have access to any alumnus/alumna that is registered with their college or university with the click of a button. Students will be able to ask alumni questions about which major to choose,</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                    <p>what clubs to take part in, what professors to take, the job market, and schedule lunch, or coffee, on their own - through our unique LunchLUM and CoffeeLUM schedulers. Students will no longer have to go through career centers, or have to search via facebook or LinkedIn for perspective alumni. Now, students and alumni can interact and form relationships entirely through Studlum!</p>
                 </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Grid Section -->
+    <section class="success" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Services</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 services-item">
+                    <a href="#servicesModal1" class="services-link" data-toggle="modal">
+                        <img src='<c:url value="/resources/images/services/cake.png"/>' class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 services-item">
+                    <a href="#servicesModal2" class="services-link" data-toggle="modal">
+                        <img src='<c:url value="/resources/images/services/cabin.png"/>' class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 services-item">
+                    <a href="#servicesModal3" class="services-link" data-toggle="modal">
+                        <img src='<c:url value="/resources/images/services/circus.png"/>' class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 services-item">
+                    <a href="#servicesModal4" class="services-link" data-toggle="modal">
+                        <img src='<c:url value="/resources/images/services/game.png"/>' class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 services-item">
+                    <a href="#servicesModal5" class="services-link" data-toggle="modal">
+                        <img src='<c:url value="/resources/images/services/safe.png"/>' class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 services-item">
+                    <a href="#servicesModal6" class="services-link" data-toggle="modal">
+                        <img src='<c:url value="/resources/images/services/submarine.png"/>' class="img-responsive" alt="">
                     </a>
                 </div>
             </div>
@@ -249,7 +219,7 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Location</h3>
-                        <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                        <p>1234 West Place<br>Beverly Hills, CA 90210</p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Around the Web</h3>
@@ -272,8 +242,6 @@
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
                     </div>
                 </div>
             </div>
@@ -282,7 +250,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Your Website 2014
+                        Copyright &copy; Sludlum 2014
                     </div>
                 </div>
             </div>
@@ -296,8 +264,8 @@
         </a>
     </div>
 
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- services Modals -->
+    <div class="services-modal modal fade" id="servicesModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -311,7 +279,7 @@
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src='<c:url value="/resources/images/portfolio/cabin.png"/>' class="img-responsive img-centered" alt="">
+                            <img src='<c:url value="/resources/images/services/cabin.png"/>' class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -334,7 +302,8 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    
+    <div class="services-modal modal fade" id="servicesModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -348,7 +317,7 @@
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src='<c:url value="/resources/images/portfolio/cake.png"/>' class="img-responsive img-centered" alt="">
+                            <img src='<c:url value="/resources/images/services/cake.png"/>' class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -371,7 +340,8 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    
+    <div class="services-modal modal fade" id="servicesModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -385,7 +355,7 @@
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src='<c:url value="/resources/images/portfolio/circus.png"/>' class="img-responsive img-centered" alt="">
+                            <img src='<c:url value="/resources/images/services/circus.png"/>' class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -408,7 +378,8 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    
+    <div class="services-modal modal fade" id="servicesModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -422,7 +393,7 @@
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src='<c:url value="/resources/images/portfolio/game.png"/>' class="img-responsive img-centered" alt="">
+                            <img src='<c:url value="/resources/images/services/game.png"/>' class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -445,7 +416,8 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    
+    <div class="services-modal modal fade" id="servicesModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -459,7 +431,7 @@
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src='<c:url value="/resources/images/portfolio/safe.png"/>' class="img-responsive img-centered" alt="">
+                            <img src='<c:url value="/resources/images/services/safe.png"/>' class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -482,7 +454,8 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    
+    <div class="services-modal modal fade" id="servicesModal6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -496,7 +469,7 @@
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src='<c:url value="/resources/images/portfolio/submarine.png"/>' class="img-responsive img-centered" alt="">
+                            <img src='<c:url value="/resources/images/services/submarine.png"/>' class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:

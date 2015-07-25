@@ -11,4 +11,14 @@ public class AppController {
 	public String viewApplication() {
 		return "index";
 	}	
+	
+	@RequestMapping(value="/register", method=RequestMethod.GET)
+	public String viewRegistration() {
+		return "registration";
+	}
+	
+	@RequestMapping(value="/login", method=RequestMethod.GET)
+	public String viewLogin() {
+		return "login";
+	}
 }

@@ -63,7 +63,7 @@
 	                    <a href="<c:url value='/#services'/>">Services</a>
 	                </li>
 	                <li>
-	                    <a href="<c:url value='/register'/>">Sign Up</a>
+	                    <a href="<c:url value='/#register'/>">Sign Up</a>
 	                </li>
                 </ul>
             </div>
@@ -72,7 +72,7 @@
         <!-- /.container-fluid -->
     </nav>
     
-    <header>
+    <section>
 	    <div class="container">
 			<div class="wrapper">
 				<form action="/login" method="post" name="Login_Form" class="form-signin">       
@@ -86,7 +86,7 @@
 				</form>			
 			</div>
 		</div>
-	</header>
+	</section>
     
     <!-- Footer -->
     <footer class="text-center">

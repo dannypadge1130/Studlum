@@ -213,7 +213,6 @@
 
     <!-- Contact Form JavaScript -->
     <script src='<c:url value="/resources/js/jqBootstrapValidation.js"/>'></script>
-    <script src='<c:url value="/resources/js/contact_me.js"/>'></script>
 
     <!-- Custom Theme JavaScript -->
     <script src='<c:url value="/resources/js/freelancer.js"/>'> </script>

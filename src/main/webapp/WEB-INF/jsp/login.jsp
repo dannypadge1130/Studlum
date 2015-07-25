@@ -35,6 +35,120 @@
 </head>
 
 <body>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="<c:url value='/'/>">Studlum</a>
+            </div>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+	                <li class="hidden">
+	                    <a href="<c:url value='/'/>"></a>
+	                </li>
+	                <li class="page-scroll">
+	                    <a href="<c:url value='/#about'/>">About</a>
+	                </li>
+	                <li class="page-scroll">
+	                    <a href="<c:url value='/#services'/>">Services</a>
+	                </li>
+	                <li>
+	                    <a href="<c:url value='/register'/>">Sign Up</a>
+	                </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    
+    <header>
+	    <div class="container">
+			<div class="wrapper">
+				<form action="/login" method="post" name="Login_Form" class="form-signin">       
+				    <h3 class="form-signin-heading">Welcome Back! Please Sign In</h3>
+					  <hr class="colorgraph"><br>
+					  
+					  <input type="text" class="form-control" name="username" placeholder="Username" required="required" autofocus="autofocus" />
+					  <input type="password" class="form-control" name="password" placeholder="Password" required="required"/>     		  
+					 
+					  <button class="btn btn-lg btn-primary btn-block"  name="Submit" value="Login" type="Submit">Login</button>  			
+				</form>			
+			</div>
+		</div>
+	</header>
+    
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>1234 West Place<br>Beverly Hills, CA 90210</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Sludlum 2014
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+     <!-- jQuery -->
+    <script src='<c:url value="/resources/js/jquery/jquery.js"/>'></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src='<c:url value="/resources/js/bootstrap/bootstrap.min.js"/>'></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src='<c:url value="/resources/js/classie.js"/>'></script>
+    <script src='<c:url value="/resources/js/cbpAnimatedHeader.js"/>'></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src='<c:url value="/resources/js/jqBootstrapValidation.js"/>'></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src='<c:url value="/resources/js/freelancer.js"/>'> </script>
+    
 </body>
 </html>
